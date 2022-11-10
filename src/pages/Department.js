@@ -42,11 +42,7 @@ const Department = memo(() => {
                 <tbody>
                     {data && data.map((v, i) => (
                         <tr key={i}>
-      
-      천사지인0
-      
-      
-      ㅇ                      <td>{v.id}</td>
+                           <td>{v.id}</td>
                             <td>{v.dname}</td>
                             <td>{v.loc}</td>
                         </tr>
